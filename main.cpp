@@ -54,83 +54,83 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 //  1)
 //  Noun: dog
 //  action 1: the dog barks
-dog.bark()
+dog.bark();
 //  action 2: the dog wags its tail
-dog.wagTail()
+dog.wagTail();
 //  action 3: the dog eats
-dog.eat()
+dog.eat();
 //  2)
 //  Noun: car
-//  action 1: the car starts
-car.start()
-//  action 2: the car accelerates
-car.accelerate()
-//  action 3: the car stops
-car.stop()
+//  action 1: the car consume gas
+car.consumeGas();
+//  action 2: the car leaks oil
+car.leakOil();
+//  action 3: the car sends electricity to the headlights
+car.sendPowerToHeadlights();
 //  3)
-//  Noun: cup
-//  action 1: fill the cup
-cup.fill()
-//  action 2: empty the cup
-cup.empty()
-//  action 3: wash the cup
-cup.clean()
+//  Noun: bird
+//  action 1: the bird flies
+bird.fly();
+//  action 2: the bird eats the worm
+bird.eatWorm();
+//  action 3: the bird makes a nest
+bird.makeNest();
 //  4)
-//  Noun: door
-//  action 1: open the door
-door.open()
-//  action 2: close the door
-door.close()
-//  action 3: lock the door
-door.lock()
+//  Noun: printer
+//  action 1: print an essay
+printer.printEssay();
+//  action 2: consume ink
+printer.consumeInk();
+//  action 3: consume electricity
+printer.consumeElectricity();
 //  5)
-//  Noun: skateboard
+//  Noun: skateboarder
 //  action 1: ride the skateboard
-skateboard.ride()
+skateboarder.ride();
 //  action 2: do an ollie with the skateboard
-skateboard.ollie()
+skateboarder.doOllie();
 //  action 3: do a kickflip
-skateboard.kickflip()
+skateboarder.doKickflip();
 //  6)
-//  Noun: drums
+//  Noun: drummer
 //  action 1: play the kick drum
-drums.playKick()
+drummer.playKick();
 //  action 2: play the snare drum
-drums.playSnare()
+drummer.playSnare();
 //  action 3: play the china cymbal
-drums.playChina()
+drummer.playChina();
 //  7)
-//  Noun: keyboard
+//  Noun: pianist
 //  action 1: play major chord
-keyboard.playMajorChord()
+pianist.playMajorChord();
 //  action 2: play minor chord
-keyboard.playMinorChord()
-//  action 3: use arpeggiator
-keyboard.arpeggio()
+pianist.playMinorChord();
+//  action 3: play with arpeggiator
+pianist.useArpeggiator();
 //  8)
-//  Noun: guitar
+//  Noun: guitarist
 //  action 1: turn up the volume
-guitar.volumeUp()
+guitarist.volumeUp();
 //  action 2: turn on distortion
-guitar.distortionOn()
+guitarist.distortionOn();
 //  action 3: turn off delay
-guitar.delayOff()
+guitarist.delayOff();
 //  9)
-//  Noun: bass
+//  Noun: bassist
 //  action 1: play slap note
-bass.playSlap()
+bassist.playSlap();
 //  action 2: play finger note
-bass.playFinger()
+bassist.playFinger();
 //  action 3: play like Les Claypool
-bass.lesClaypoolModeOn()
+bassist.lesClaypoolModeOn();
 //  10)
 //  Noun: synth
 //  action 1: select wavetable oscillator
-synth.selectWavetable()
-//  action 2: turn low pass filter on
-synth.lowPassFilterOn()
+synth.selectWavetable();
+//  action 2: Low pass filter cuts frequencies
+synth.lowPassFilterCutFrequencies();
 //  action 3: sync to vst plugin
-synth.syncWithVST()
+synth.syncWithVST();
 #endif
 
 /*
