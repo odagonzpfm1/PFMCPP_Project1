@@ -52,97 +52,97 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: dog
+//  action 1: the dog barks
+dog.bark();
+//  action 2: the dog wags its tail
+dog.wagTail();
+//  action 3: the dog eats
+dog.eat();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: car
+//  action 1: the car consume gas
+car.consumeGas();
+//  action 2: the car leaks oil
+car.leakOil();
+//  action 3: the car sends electricity to the headlights
+car.sendPowerToHeadlights();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: bird
+//  action 1: the bird flies
+bird.fly();
+//  action 2: the bird eats the worm
+bird.eatWorm();
+//  action 3: the bird makes a nest
+bird.makeNest();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: printer
+//  action 1: print an essay
+printer.printEssay();
+//  action 2: consume ink
+printer.consumeInk();
+//  action 3: consume electricity
+printer.consumeElectricity();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: skateboarder
+//  action 1: ride the skateboard
+skateboarder.ride();
+//  action 2: do an ollie with the skateboard
+skateboarder.doOllie();
+//  action 3: do a kickflip
+skateboarder.doKickflip();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: drummer
+//  action 1: play the kick drum
+drummer.playKick();
+//  action 2: play the snare drum
+drummer.playSnare();
+//  action 3: play the china cymbal
+drummer.playChina();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: pianist
+//  action 1: play major chord
+pianist.playMajorChord();
+//  action 2: play minor chord
+pianist.playMinorChord();
+//  action 3: play with arpeggiator
+pianist.useArpeggiator();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: guitarist
+//  action 1: turn up the volume
+guitarist.volumeUp();
+//  action 2: turn on distortion
+guitarist.distortionOn();
+//  action 3: turn off delay
+guitarist.delayOff();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: bassist
+//  action 1: play slap note
+bassist.playSlap();
+//  action 2: play finger note
+bassist.playFinger();
+//  action 3: play like Les Claypool
+bassist.lesClaypoolModeOn();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
-
+//  Noun: synth
+//  action 1: select wavetable oscillator
+synth.selectWavetable();
+//  action 2: Low pass filter cuts frequencies
+synth.lowPassFilterCutFrequencies();
+//  action 3: sync to vst plugin
+synth.syncWithVST();
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +150,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
